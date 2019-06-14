@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Waitstaff Calculator</title>
+  </head>
+  <body>
+    <header class="waitstaff-header">
+      <h1 class="waitstaff-title">Waitstaff Calculator</h1>
+    </header>
+    <section class="meal-details">
+      <h2 class="meal-details-title">Enter the Meal Details</h2>
+      <form class="meal-details-form">
+        <span class="base-meal">Base Meal Price </span>
+        <input type="number" class="base-meal-input" />
+
+        <span class="tax-rate">Tax Rate </span>
+        <input type="number" class="tax-rate-input"/> 
+
+        <span class="tip-percentage">Tip Percentage </span>
+        <input type="number" class="tip-percentage-input"/>
+
+        <button type="submit" class="meal-details-submit">Submit</button>
+        <button type="button" class="meal-details-cancel">Cancel</button>
+      </form>
+    </section>
+    <section>
+        <h2 class="customer-charges-title">Customer Charges</h2>
+        <ul class="customer-charges-list">
+            <li>
+               <p class="subtotal">Subtotal</p> 
+            </li>
+        </ul>
+    </section>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="store.js"></script>
+  </body>
+</html>
